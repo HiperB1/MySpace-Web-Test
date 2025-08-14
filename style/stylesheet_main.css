@@ -15,18 +15,23 @@
     
 }
 .conteiner_main{
-    animation: aparecer 0.8s ease-in-out forwards;
+    
     background-image: url('images/main_image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     padding: 2vh;
     
     display: flexbox;
-    align-content:center;
+    align-content:top;
 
     
+}
+.conteiner_register_button{
+    width: 100%;
+    display: flex;
+    justify-content: left;
 }
 .text_conteiner{
     animation: aparecer 0.8s ease-in-out forwards;
@@ -44,29 +49,24 @@
     border-radius: 14px;
     padding: 3vh;
     height: 15vh;
-
+ 
 }
-.container_about{
-    background-image: url("images/galatic_map2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 40vh;
-    display: flexbox;
-    align-items: center;
-    padding: 5vh;
-
-}
-.separador{
-    width: 100vh;
-    height: 10vh;
-
+.footer_main{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .img{
     width: 10vh;
     height: 10vh;
     margin: 1vh;
+}
+
+.img-social-media{
+    width: 4vh;
+    height: 4vh;
 }
 
 .buton_generic{
@@ -97,6 +97,7 @@
 
 .text_generic{
     
+    padding: 0.5vh;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
