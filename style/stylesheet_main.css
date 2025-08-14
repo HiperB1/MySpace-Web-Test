@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}   
+@keyframes aparecer {
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+.conteiner_main{
+    animation: aparecer 0.8s ease-in-out forwards;
+    background-image: url('images/main_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding: 2vh;
+    
+    display: flexbox;
+    align-content:center;
+
+    
+}
+.text_conteiner{
+    animation: aparecer 0.8s ease-in-out forwards;
+    display: flexbox;
+    align-content: top;
+    height: 60vh;
+    padding: 4vh
+}
+.header_main{
+    display: flex;
+    align-items: center;
+    animation: aparecer 0.8s ease-in-out forwards;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    padding: 3vh;
+    height: 15vh;
+
+}
+.container_about{
+    background-image: url("images/galatic_map2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    display: flexbox;
+    align-items: center;
+    padding: 5vh;
+
+}
+.separador{
+    width: 100vh;
+    height: 10vh;
+
+}
+
+.img{
+    width: 10vh;
+    height: 10vh;
+    margin: 1vh;
+}
+
+.buton_generic{
+
+    border-radius: 15px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 2.5vh;
+    padding: 10px;
+    width: 25vh;
+    height: 6vh;
+    background-color: cadetblue;
+    border: 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 1vh;
+ 
+
+}   
+.buton_generic:hover{
+
+    background-color: aquamarine;
+    width: 27vh;
+
+}
+
+.text_generic{
+    
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
+
+.text_generic--h1{
+
+    font-size: 8vh;
+
+}
+
+.text_generic--h2{
+    font-size: 6vh;
+
+}
+
+.text_generic--h3{
+    font-size: 6vh;
+
+}
+
+.text_generic--p{
+    font-size: 3vh;
+
+}
