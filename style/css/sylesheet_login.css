@@ -1,0 +1,64 @@
+@import url('stylesheet_main.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+
+}
+
+.conteiner_main_login{
+
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #233;
+
+}
+
+.container_formulary{
+    animation: aparecer 0.8s ease-in-out forwards;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 80vh;
+    border-radius: 50px ;
+    padding: 1%;
+    margin: 1vh;
+
+}
+
+.conteiner_logo_login{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img_logo_login{
+    width: 20vh;
+    height: 20vh;
+}
+
+.formluary_form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.input_generic{
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+}
