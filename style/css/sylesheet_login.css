@@ -10,55 +10,125 @@
 
 .conteiner_main_login{
 
-    padding: 2vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex; 
+    flex-direction: column; /*Para alinear los elementos en columnas o verticalmente*/
+    justify-content: center; /*Centrar Horizontalmente*/
+    align-items: center; /*Centrar Verticalemnte*/
     height: 100vh;
     width: 100%;
-    background-color: #233;
+    background-color: #000;
+    background: radial-gradient(circle at center, #27b3a8, #1b6f69); /*Efecto de difumando radial en circulo hacia el centro*/
 
 }
 
 .container_formulary{
-    animation: aparecer 0.8s ease-in-out forwards;
+    animation: aparecer 0.8s ease-in-out forwards; /*Animacion cuando carga la pagina de aparecer importada de Stylesheet_main*/
     background-color: #222;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 70vh;
-    width: 80vh;
+    width: 70vh;
     border-radius: 50px ;
     padding: 1%;
     margin: 1vh;
+    translate: 0px -20px;
+
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.8);
 
 }
 
 .conteiner_logo_login{
+    animation: aparecer 0.8s ease-in-out forwards;
     display: flex;
     justify-content: center;
 }
-
+.container_label{
+    padding: 0vh 0vh 0vh 1vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 
 .img_logo_login{
+
     width: 20vh;
     height: 20vh;
+    translate: 0px -20px;
 }
 
 .formluary_form{
-    
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+
+    margin: 6vh;
+    
 }
 
 .input_generic{
+    margin: 1vh;
+    width: 45vh;
+    height: 4vh;
+    padding: 1vh;
+
     border: none;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    width: 50%;
-    height: 4%;
+    outline: none;
+
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+    transition: all 0.4s ease;
+}
+
+.input_generic:focus{
+    border-color: #27b3a8;
+    box-shadow: 0 0 8px rgba(39, 179, 168, 0.7);
+}
+
+.a_generic{
+    color: aquamarine;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.a_generic:hover{
+    color: aqua;
+    font-size: 2.3vh;
+
+}
+
+.a_generic--forget-password{
+    padding: 0vh 0vh 0vh 7vh;
+    font-size: 2vh;
+}
+
+.a_generic--forget-password:hover{
+    font-size: 2.1vh;
+}
+
+
+
+.text_generic--h1{
+    
+    font-size: 7vh;
+}
+
+.buton_generic{
+    color: #222;
+}
+.buton_generic:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }

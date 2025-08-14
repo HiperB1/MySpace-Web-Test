@@ -14,6 +14,8 @@
     }
     
 }
+
+
 .conteiner_main{
     
     background-image: url('../images/main_image.jpg');
@@ -80,7 +82,7 @@
     padding: 10px;
     width: 25vh;
     height: 6vh;
-    background-color: cadetblue;
+    background-color: #5f9ea0;
     border: 0;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -108,6 +110,7 @@
 .text_generic--h1{
 
     font-size: 8vh;
+
 
 }
 
