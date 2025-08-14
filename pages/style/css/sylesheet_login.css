@@ -8,6 +8,8 @@
 
 }
 
+
+
 .conteiner_main_login{
 
     display: flex; 
@@ -30,7 +32,7 @@
     flex-direction: column;
     height: 70vh;
     width: 70vh;
-    border-radius: 50px ;
+    border-radius: 40px ;
     padding: 1%;
     margin: 1vh;
     translate: 0px -20px;
@@ -76,7 +78,7 @@
 
 .input_generic{
     margin: 1vh;
-    width: 45vh;
+    width: 100%;
     height: 4vh;
     padding: 1vh;
 

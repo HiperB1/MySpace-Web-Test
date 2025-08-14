@@ -1,0 +1,76 @@
+@import url(sylesheet_login.css);
+
+body{
+    display: flex; /*Definimos como se va organizar el cuerpo de nuestra pagina*/
+    justify-content: center; /*centramos horizontalmente*/
+    align-items: center; /*Centramos verticalmente*/
+    flex-direction: column; /*Definimos como se va organizar el flex: en columnas*/
+    width: 100vw; /*Definimos su ancho del maximo posible*/
+    height: 100vh; /*Y su altura del maximo posible*/
+    background: radial-gradient(var(--brand-color), #1b6f69);
+}
+
+.formluary_div{
+    background-color: #222;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 30px;
+
+    padding: 1vh;
+
+    translate: 0px -40px;
+
+    animation: aparecer 0.8s ease-in-out forwards;
+
+    box-shadow: 0px 0px 10px #000;
+
+}
+.button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formluary{
+    font-family: var(--main-font) ;
+    font-size: 2.5vh;
+    font-style: var(--main-style);
+    font-weight: var(--main-weight);
+    
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 2vh;
+    padding: 2vh;
+    
+}
+
+.formluary label{
+    align-self: flex-start;
+}
+
+.myspace_icon{
+    height: 20vh;
+    width: 20vh;
+    margin: 3vh;
+    translate: 0px -40px;
+    animation: aparecer 0.8s ease-in-out forwards;
+}
+
+
+
+.text_generic--h1{
+    font-size: 6vh;
+    padding: 3vh;
+}
+
+.buton_generic{
+    margin: 1.2vh;
+}

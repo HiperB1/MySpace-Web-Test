@@ -15,6 +15,15 @@
     
 }
 
+:root{
+    --main-font: "Audiowide", sans-serif;
+    --main-weight: 400;
+    --main-style: normal;
+
+    --brand-color: #27b3a8;
+
+}
+
 
 .conteiner_main{
     
@@ -83,17 +92,22 @@
     width: 25vh;
     height: 6vh;
     background-color: #5f9ea0;
-    border: 0;
+    border: none;
     transition: all 0.3s ease;
     cursor: pointer;
     margin: 1vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
  
 
 }   
 .buton_generic:hover{
 
     background-color: aquamarine;
-    width: 27vh;
+    width: 26vh;
+    height: 6.5vh;
 
 }
 
