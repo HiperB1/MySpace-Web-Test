@@ -11,45 +11,51 @@
     <title>Inicio de sesión</title>
 </head>
 <body>
-    <div class="conteiner_main_login">
+    
 
-        <div class="conteiner_logo_login">
-            <img src="style/images/Icon.png" alt="myspace-icon" class="img_logo_login">
-        </div>
+    
+    <img src="style/images/Icon.png" alt="myspace-icon" class="img_logo_login">
+    
 
-        <div class="container_formulary">
-            <h1 class="text_generic text_generic--h1">Inicio Sesión</h1>
-  
-            <form action="" method="get" class="formluary_form">
-                
+    <div class="container_formulary">
+        <h1 class="text_generic text_generic--h1">Inicio Sesión</h1>
 
-                <div class="container_label">
-                    <label>Correo</label>
-                </div>
-                <input type="text" name="correo" class="input_generic">
+        <form action="php/login.php" method="get" class="formluary_form">
+            
 
-
-                <div class="container_label">
-                    <label>Contraseña</label>
-                    <a href="" class="a_generic a_generic--forget-password">Olvide mi contraseña</a>
-                </div>
-                <input type="password" name="clave" class="input_generic">
-
-                <button class="buton_generic">Iniciar Sesion</button>
-                <div class="no_have_acount">
-                    <label>¿No tienes cuenta? </label>
-                    <a href="registro.html" class="a_generic">Registrate</a>
-                </div>
-
-            </form>
+            
+            <label>Correo</label>
+            
+            <input type="text" name="correo" class="input_generic">
 
 
+            <div class="container_label">
+                <label>Contraseña</label>
+                <a href="" class="a_generic a_generic--forget-password">Olvide mi contraseña</a>
+            </div>
+            <input type="password" name="clave" class="input_generic">
+
+            <div class="button_div">
+                    
+                <button class="buton_generic" type="button" onclick="window.location.href='index.html'">Inicio</button>
+                <button class="buton_generic" type="submit">Iniciar Sesion</button>
+
+            </div>
+
+            <div class="no_have_acount">
+                <label>¿No tienes cuenta? </label>
+                <a href="registro.html" class="a_generic">Registrate</a>
+            </div>
+
+        </form>
 
 
-        </div>
 
 
     </div>
+
+
+
     
 </body>
 </html>

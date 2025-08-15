@@ -8,20 +8,17 @@
 
 }
 
-
-
-.conteiner_main_login{
-
-    display: flex; 
-    flex-direction: column; /*Para alinear los elementos en columnas o verticalmente*/
-    justify-content: center; /*Centrar Horizontalmente*/
-    align-items: center; /*Centrar Verticalemnte*/
-    height: 100vh;
-    width: 100%;
-    background-color: #000;
-    background: radial-gradient(circle at center, #27b3a8, #1b6f69); /*Efecto de difumando radial en circulo hacia el centro*/
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--brand-color);
+    background: radial-gradient(var(--brand-color), #1b6f69);
 }
+
+
+
 
 .container_formulary{
     animation: aparecer 0.8s ease-in-out forwards; /*Animacion cuando carga la pagina de aparecer importada de Stylesheet_main*/
@@ -30,35 +27,42 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 70vh;
-    width: 70vh;
+    height: auto;
+    width: auto;
     border-radius: 40px ;
-    padding: 1%;
+    padding: 3vh;
     margin: 1vh;
     translate: 0px -20px;
 
     box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.8);
 
+    translate: 0px 50px;
+
 }
 
-.conteiner_logo_login{
-    animation: aparecer 0.8s ease-in-out forwards;
-    display: flex;
-    justify-content: center;
+.container_formulary h1{
+    margin: 1.5vh;
 }
+
+
+
 .container_label{
-    padding: 0vh 0vh 0vh 1vh;
     width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: space-between; /*deja el primer elemento pegado a la izquierda y el último a la derecha, el resto del espacio queda en medio.*/
     align-items: center;
+    flex-direction: row;
 }
+
+
+
 
 .img_logo_login{
 
     width: 20vh;
     height: 20vh;
-    translate: 0px -20px;
+    translate: 0px 30px;
+    animation: aparecer 0.8s ease-in-out forwards;
 }
 
 .formluary_form{
@@ -66,14 +70,28 @@
     font-weight: 400;
     font-style: normal;
     color: white;
+    font-size: 2.5vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    margin: 6vh;
+    margin: 2vh;
+    padding: 2vh;
     
+}
+
+.button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1.5vh;
+}
+
+.formluary_form label{
+    align-self: flex-start;
 }
 
 .input_generic{
@@ -97,7 +115,7 @@
 }
 
 .input_generic:focus{
-    border-color: #27b3a8;
+    border-color: var(--brand-color);
     box-shadow: 0 0 8px rgba(39, 179, 168, 0.7);
 }
 
@@ -108,24 +126,24 @@
 }
 .a_generic:hover{
     color: aqua;
-    font-size: 2.3vh;
+    font-size: 2.6vh;
 
 }
 
 .a_generic--forget-password{
-    padding: 0vh 0vh 0vh 7vh;
-    font-size: 2vh;
+    font-size: 2.2vh;
+
 }
 
 .a_generic--forget-password:hover{
-    font-size: 2.1vh;
+    font-size: 2.3vh;
 }
 
 
 
 .text_generic--h1{
     
-    font-size: 7vh;
+    font-size: 6vh;
 }
 
 .buton_generic{
